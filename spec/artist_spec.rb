@@ -47,9 +47,4 @@ describe "Artist" do
         expect(Artist.song_count).to eq(3)
       end
     end
- it "uses the class variable, @@song_count" do 
-        expect(Artist.class_variable_get(:@@song_count)).to be_a(Integer)
-      end
-    end
-  end
-end
+ end
